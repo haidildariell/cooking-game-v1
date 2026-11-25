@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dapur Senja — Warung Kilat</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #2b1d16; }
+  body { display: flex; align-items: center; justify-content: center; min-height: 100vh; font-family: "Trebuchet MS", Verdana, sans-serif; }
+  #wrap { text-align: center; }
+  canvas { display: block; width: 1280px; height: 720px; max-width: 96vw; max-height: 90vh; border: 6px solid #6d4c41; border-radius: 12px; background: #f7d9a0; }
+  p { color: #f5e6c8; font-size: 14px; margin: 10px 0 0; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <p>Dapur Senja — Warung Kilat &bull; WASD / panah gerak &bull; E interaksi &bull; Q ganti bahan &bull; P jeda &bull; M bisu</p>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
